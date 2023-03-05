@@ -33,6 +33,7 @@ module.exports = {
         titleTemplate: '%s | Jenkins plugin',
         twitter: '@jenkinsci',
         githubRepo: 'jenkins-infra/plugin-site',
+        reportAProblemTemplate: '1-bug.yml',
         description: 'Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software',
         image: 'https://jenkins.io/images/logo-title-opengraph.png',
         twitterUsername: '@JenkinsCI'
@@ -46,6 +47,7 @@ module.exports.plugins = [
             siteUrl: 'https://plugins.jenkins.io/',
             githubBranch: 'master',
             githubRepo: 'jenkins-infra/plugin-site',
+            reportAProblemTemplate: '1-bug.yml',
             extraCss: [
                 '@import \'./styles/ubuntu-fonts.css\';',
                 '@import \'./styles/lato-fonts.css\';',

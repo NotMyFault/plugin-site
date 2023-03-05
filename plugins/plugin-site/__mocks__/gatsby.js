@@ -38,7 +38,8 @@ module.exports = {
                 buildTime: new Date(1578980455).getUTCDate(),
                 siteMetadata: {
                     githubRepo: 'jenkins-infra/plugin-site',
-                    siteUrl: 'https://plugins.jenkins.io'
+                    siteUrl: 'https://plugins.jenkins.io',
+                    reportAProblemTemplate: '1-bug.yml',
                 }
             },
             labels: {
